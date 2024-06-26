@@ -24,3 +24,15 @@ Stop words were removed and text features were lemmatized using `nltk`. The TF-I
 7. Model deployment to a web application (using Streamlit)
 
 ## Installation
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/GraziCredidio/Job_post_fraud_prediction.git
+   ```
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+5. To run the job posting fraud prediction web application, open the terminal in the folder and type:
+    ```bash
+    streamlit run app.py
+    ```
