@@ -23,6 +23,12 @@ Stop words were removed and text features were lemmatized using `nltk`. The TF-I
 6. Performance evaluation
 7. Model deployment to a web application (using Streamlit)
 
+## Files and folders
+Inside `/data` you can find the original dataset. The trained models with best performances (Logistic Regression and XGBoost) are stored in `/models`. Inside `/src`, you will find 3 files:
++ `job_posting_EDA_cleaning.ipynb`: initial data exploration and cleaning
++ `job_posting_model.ipynb`: text vectorization, train-test split, models training and performance evaluation
++ `app.py`: deployment of the trained XGBoost model as a web application using streamlit 
+
 ## Installation
 1. Clone the repository to your local machine:
    ```bash
